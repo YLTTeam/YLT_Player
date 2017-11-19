@@ -1,0 +1,12 @@
+#use_frameworks!
+
+platform :ios, "9.0"
+target 'YLT_Player_Example' do
+  pod 'YLT_Player', :path => '../'
+
+  target 'YLT_Player_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

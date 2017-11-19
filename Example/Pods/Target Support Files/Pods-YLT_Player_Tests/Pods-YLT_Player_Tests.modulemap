@@ -1,0 +1,6 @@
+framework module Pods_YLT_Player_Tests {
+  umbrella header "Pods-YLT_Player_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

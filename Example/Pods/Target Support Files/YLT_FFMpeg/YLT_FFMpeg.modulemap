@@ -1,0 +1,6 @@
+framework module YLT_FFMpeg {
+  umbrella header "YLT_FFMpeg-umbrella.h"
+
+  export *
+  module * { export * }
+}

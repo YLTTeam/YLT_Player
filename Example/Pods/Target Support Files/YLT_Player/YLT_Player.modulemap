@@ -1,0 +1,6 @@
+framework module YLT_Player {
+  umbrella header "YLT_Player-umbrella.h"
+
+  export *
+  module * { export * }
+}

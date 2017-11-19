@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) $(PODS_ROOT)/YLT_FFMpeg/Classes/include $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/YLT_BaseLib" "${PODS_ROOT}/Headers/Public/YLT_FFMpeg" "${PODS_ROOT}/Headers/Public/YLT_Player"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FMDB" "$PODS_CONFIGURATION_BUILD_DIR/MJExtension" "$PODS_CONFIGURATION_BUILD_DIR/YLT_BaseLib" "$PODS_CONFIGURATION_BUILD_DIR/YLT_Player" "${PODS_ROOT}/YLT_FFMpeg/YLT_FFMpeg/Classes/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/MJExtension" -isystem "${PODS_ROOT}/Headers/Public/YLT_BaseLib" -isystem "${PODS_ROOT}/Headers/Public/YLT_FFMpeg" -isystem "${PODS_ROOT}/Headers/Public/YLT_Player"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"MJExtension" -l"YLT_BaseLib" -l"YLT_Player" -l"avcodec" -l"avdevice" -l"avfilter" -l"avformat" -l"avutil" -l"bz2" -l"iconv" -l"sqlite3" -l"swresample" -l"swscale" -l"z" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "VideoToolbox"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
