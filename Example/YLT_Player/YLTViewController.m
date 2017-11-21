@@ -18,8 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [YLT_Player YLT_PlayerConfigure];
-    [YLT_Player YLT_PlayerOpenFile:[[NSBundle mainBundle] pathForResource:@"Test" ofType:@"mov"]];
+    [YLT_Player YLT_Configure];
+    [YLT_Player YLT_OpenFile:[[NSBundle mainBundle] pathForResource:@"Test" ofType:@"mov"]];
 }
 
 - (void)didReceiveMemoryWarning
