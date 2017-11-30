@@ -15,5 +15,7 @@
 #import <libavutil/avutil.h>
 #import <libswresample/swresample.h>
 #import <libswscale/swscale.h>
+#import <libavutil/pixdesc.h>
+#import <libavutil/imgutils.h>
 
 #endif /* YLT_FFMpeg_h */

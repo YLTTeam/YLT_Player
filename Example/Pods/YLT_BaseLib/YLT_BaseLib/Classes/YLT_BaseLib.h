@@ -18,6 +18,7 @@
 #import "YLT_PhotoHelper.h"
 #import "YLT_FileHelper.h"
 #import "YLT_KeyChainHelper.h"
-
+#import "YLT_BaseModular.h"
+#import "YLT_ModularManager.h"
 
 #endif /* YLT_BaseLib_h */

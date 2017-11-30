@@ -25,6 +25,7 @@
 		941A16BFF2DEF372596C81D6 /* libPods-YLT_Player_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6628D6E28FF07FBF219A38 /* libPods-YLT_Player_Example.a */; };
 		C40355F1B52CBCA6438F3C57 /* libPods-YLT_Player_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5A69E27F6695310B338B6B /* libPods-YLT_Player_Tests.a */; };
 		FA7C275C1FC1CC79002235DC /* Test.mov in Resources */ = {isa = PBXBuildFile; fileRef = FA7C275B1FC1CC79002235DC /* Test.mov */; };
+		FABBE5201FCABEEC00A20CA1 /* kaoji.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FABBE51F1FCABEEC00A20CA1 /* kaoji.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		E7CD2AE03E89E45B8C071A22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E962024604A78FF2D9BAAEF6 /* YLT_Player.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLT_Player.podspec; path = ../YLT_Player.podspec; sourceTree = "<group>"; };
 		FA7C275B1FC1CC79002235DC /* Test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Test.mov; sourceTree = "<group>"; };
+		FABBE51F1FCABEEC00A20CA1 /* kaoji.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaoji.mp4; sourceTree = "<group>"; };
 		FB6960FB4AC8897A2902AD59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 		6003F593195388D20070C39A /* Example for YLT_Player */ = {
 			isa = PBXGroup;
 			children = (
+				FABBE51F1FCABEEC00A20CA1 /* kaoji.mp4 */,
 				FA7C275B1FC1CC79002235DC /* Test.mov */,
 				6003F59C195388D20070C39A /* YLTAppDelegate.h */,
 				6003F59D195388D20070C39A /* YLTAppDelegate.m */,
@@ -286,6 +289,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				FA7C275C1FC1CC79002235DC /* Test.mov in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				FABBE5201FCABEEC00A20CA1 /* kaoji.mp4 in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

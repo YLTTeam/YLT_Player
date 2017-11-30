@@ -15,11 +15,11 @@
 
 @implementation YLTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    [YLT_Player YLT_Configure];
-    [YLT_Player YLT_OpenFile:[[NSBundle mainBundle] pathForResource:@"Test" ofType:@"mov"]];
+//    [YLT_VideoPlayer YLT_OpenFile:[[NSBundle mainBundle] pathForResource:@"kaoji" ofType:@"mp4"]];
+//    [YLT_VideoPlayer YLT_OpenFile:[[NSBundle mainBundle] pathForResource:@"Test" ofType:@"mov"]];
+    [YLT_VideoPlayer YLT_OpenFile:[[NSBundle mainBundle] pathForResource:@"video" ofType:@"mkv"]];
 }
 
 - (void)didReceiveMemoryWarning

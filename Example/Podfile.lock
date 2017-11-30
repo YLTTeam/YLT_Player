@@ -3,10 +3,10 @@ PODS:
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
   - MJExtension (3.0.13)
-  - YLT_BaseLib (0.0.20):
+  - YLT_BaseLib (0.0.29):
     - FMDB
     - MJExtension (~> 3.0.13)
-  - YLT_FFMpeg (0.0.2)
+  - YLT_FFMpeg (0.0.3)
   - YLT_Player (0.1.0):
     - YLT_BaseLib
     - YLT_FFMpeg
@@ -21,8 +21,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  YLT_BaseLib: 3f413e3356f87f4424e889781c86e6811b3c4ea1
-  YLT_FFMpeg: ec052bff5841336dc4869e67aafba06ba54388f5
+  YLT_BaseLib: bcc7836ba202f7bcf690f750f5235dc7a0d31774
+  YLT_FFMpeg: c4046a68e89b554550b743e0bd95f862cc0b8aa1
   YLT_Player: 6fb4131247da4e8fc9c58ba47283c14fae23cdd3
 
 PODFILE CHECKSUM: 438083c6b8ce78b04be53f08998ca267e12a0998
